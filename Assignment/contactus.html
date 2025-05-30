@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+</head>
+<body>
+     <div class="nevbar">
+        <a href="index.html">Home</a>
+        <a href="contactus.html">Contact US</a>
+     </div>
+     <header class="heading">
+        <h1>Registion Form</h1>
+     </header>
+        <div id="content" class="container">
+            <form action="index.html">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="uname">user Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" name="username" placeholder="your name" required>
+                    </div>
+                    <div class="col-25">
+                        <label for="email">Email ID</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" name="email-id" placeholder="your mail id" required>
+                    </div>
+                    <div class="col-25">
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="password" name="password" placeholder="password" required>
+                    </div>
+                    <div class="col-25">
+                        <label for="option">Select the Program</label>
+                    </div>
+                    <div class="col-75">
+                        <select name="program">
+                            <option value="select Internship">select Internship</option>
+                            <option value="Machine Learning">Machine Learning</option>
+                            <option value="Web development">Web development</option>
+                            <option value="AI">AI</option>
+                            <option value="Data science">Data science</option>
+                            <option value="Degital Marketing">Degital Marketing</option>
+                        </select>
+                    </div>
+                    <div class="col-25">
+                        <label for="message">Message</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea name="message" id="message" placeholder="write your message" style="height: 100px;"></textarea>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <a href="index.html" class="button">Submit</a>
+                </div>
+            </form>
+        </div>
+</body>
+</html>
